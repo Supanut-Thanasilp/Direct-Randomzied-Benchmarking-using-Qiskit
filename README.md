@@ -11,3 +11,6 @@ In this project, we follow a new procedure proposed in the paper above which can
 1. creating a random stabilizer for n-qubits. (this part is done using Pygsti to produce openqasm of a random circuit and then converted into Qiskit). 
 2. randomly pick native gates for m layers. (this is entirely done in Qiskit)
 3. convert the stabilizer into one of the computational basis (called stabilizer measurement). (partially, in Pygsti).
+
+## What's next
+We will try to fix the bugs, reproduce the complete results, and convert codes in only Qiskit.
